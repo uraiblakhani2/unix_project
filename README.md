@@ -1,5 +1,8 @@
 # Unix-Final-Project
 
+# Authors: Uraib Lakhani, Vehab Kanlic & Douyon Sebastiampillai
+
+
 This is a repo which contains basic steps to setup a web server to host a website using a VPS. 
 This repo also contains screenshots with instructions of basic tasks one might want to preform when setting
 up their own server such as the creation of multiple user accounts and giving them permissions, 
@@ -23,4 +26,3 @@ In other words, this repo contains instruction to set up a VPS and a journal alo
   </div>
 
 
-# Authors: Uraib Lakhani, Vehab Kanlic & Douyon Sebastiampillai
