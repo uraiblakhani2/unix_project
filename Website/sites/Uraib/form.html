@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="nav1">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="lists.html">Lists</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="tables.html">Table</a></li>
+          <li><a id="currentPage" href="form.html">Form</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="container">
+      <form>
+        <fieldset>
+          <legend><i class="bi bi-info-circle-fill"></i> Student's info</legend>
+          <div class="long">
+            <label for="studentid"> Student ID</label>
+            <input
+              id="studentid"
+              placeholder="Enter Your Student ID (Only Digits)"
+            />
+          </div>
+
+          <div class="long">
+            <label for="Firstname"> Firstname</label>
+            <input id="Firstname" placeholder="Firstname" />
+          </div>
+
+          <div class="long">
+            <label for="Lastname">Lastname</label>
+            <input id="Lastname" placeholder="Lastname" />
+          </div>
+
+          <div class="userreg">
+            <label for="Username">Username</label>
+            <label for="Password">Password</label>
+          </div>
+
+          <div class="userreg2">
+            <input id="Username" placeholder="Username" />
+            <input id="Password" type="password" placeholder="Password" />
+          </div>
+
+          <div class="dob">
+            <label for="Dateofbirth"> Date Of Birth</label>
+            <label for="courses">Courses</label>
+          </div>
+
+          <div class="courses">
+            <input id="Dateofbirth" type="date" />
+            <select name="courses" id="courses">
+              <option value="--">--</option>
+              <option value="Maths">English</option>
+              <option value="Physics">Physics</option>
+              <option value="Chemistry">Chemistry</option>
+            </select>
+          </div>
+        </fieldset>
+        <p>Select Campus:</p>
+        <div class="box2">
+          <input type="radio" name="campus" id="Laval" />
+          <label for="Laval" class="label-inline">Laval</label>
+
+          <input type="radio" name="campus" id="Montreal" />
+          <label for="Montreal" class="label-inline">Montreal</label>
+
+          <input type="radio" name="campus" id="Longeuil" />
+          <label for="Longeuil" class="label-inline">Longeuil</label>
+        </div>
+
+        <div class="box4">
+          <p>Select schedule preference:</p>
+          <input type="checkbox" id="Morning" />
+          <label for="Morning">Morning classes</label>
+
+          <input type="checkbox" id="Evening" />
+          <label for="Evening">Evening classes</label>
+
+          <input type="checkbox" id="Back" />
+          <label for="Back">Back-to-back classes</label>
+
+          <input type="checkbox" id="None" />
+          <label for="None">No preference</label>
+        </div>
+        <fieldset>
+          <legend><i class="bi bi-telephone-fill"></i> Contact</legend>
+
+          <div class="contact_info">
+            <label for="Email"> Email</label>
+
+            <label for="Phone"> Phone</label>
+
+            <label for="Color">
+              Favorite color <i class="bi bi-palette"></i
+            ></label>
+          </div>
+
+          <div class="contact_info2">
+            <input id="Email" type="email" placeholder="john@example.com" />
+            <input id="Phone" placeholder="(514-999-9999)" />
+            <input id="Color" type="color" placeholder="______________" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><i class="bi bi-person-video2"></i> Address</legend>
+          <div class="long">
+            <label for="Street">
+              Street <i class="bi bi-signpost-2-fill"></i
+            ></label>
+            <input id="Street" placeholder="Street name" />
+          </div>
+
+          <div class="long">
+            <label for="City"> City</label>
+            <input id="City" placeholder="City" />
+          </div>
+
+          <div class="address">
+            <label for="Province"> Province</label>
+            <label for="Potsal"> Postal Code</label>
+          </div>
+
+          <div class="address2">
+            <input id="Province" placeholder="Province" />
+            <input id="Potsal" placeholder="A1A 1A1" />
+          </div>
+
+          <div>
+            <p>Comments: <i class="bi bi-question-circle"></i></p>
+            <textarea
+              id="comments"
+              cols="150"
+              rows="6"
+              placeholder="comments?"
+            ></textarea>
+          </div>
+
+          <div class="buttons">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+
+        <p>Internet | student</p>
+      </form>
+
+      <footer>
+        <p>Uraib Lakhani, 24-02-2022</p>
+        <p>uraiblakhani@gmail.com</p>
+      </footer>
+    </div>
+  </body>
+</html>

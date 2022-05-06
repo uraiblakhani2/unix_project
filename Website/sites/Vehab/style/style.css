@@ -1,0 +1,334 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;}
+			
+body {
+	color: #666666;
+	background-color: #f9f8f6;
+	background-image: url("../images/planet.jpg");
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	line-height: 1.4em;
+	margin: 0px;
+
+	
+}
+
+.wrapper {
+	width: 1600px;
+	margin: 80px auto 60px auto;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	padding: 8px;
+}
+}
+
+h1 {
+	text-indent: -9999px;
+	padding-left: 100px;
+	width: 940px;margin: 60px auto 60px auto;
+	height: 130px;
+	margin: 0px;
+}
+
+nav, footer {
+	clear: both;
+	color: #ffffff;
+	background-color: #aeaca8;
+	height: 30px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 400px;
+
+}
+
+nav li {
+	display: inline;
+	margin-right: 30px;
+
+}
+
+nav li a {
+	color: #ffffff;
+
+}
+
+nav li a:hover, nav li a.current {
+	color: #000000;
+
+}
+
+section.climate {
+	float: left;
+	width: 800px;
+	border-right: 1px solid #eeeeee;
+
+}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+
+hgroup {
+	margin-top: 150px;
+}
+
+ul {
+  border: 1px solid black;
+  font-size: 20px ;
+  padding: 10px;
+  line-height: 20px;
+}
+
+ol 
+{
+	border: 1px solid black;
+}
+
+aside section a:hover {
+	color: #985d6a;
+	background-color: #efefef;
+}
+
+a {
+	color: #de6581;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+
+}
+
+h2 {
+	margin: 40px 50px 5px 0px;
+	padding: 20px;
+
+
+}
+
+h3 {
+	margin: 60px 0px 5px 5px;
+	color: #de6581;
+
+}
+
+aside h2 {
+	padding: 50px 50px 5px 0px;
+	color: #de6581;
+
+}
+}
+ol {
+  border-style: solid;
+  list-style-type: upper-roman;
+  border-color: wheat;
+}
+ol li {
+  border-style: dashed;
+  border-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ol li:hover {
+  background-color: limegreen;
+}
+}
+
+ul {
+  border-style: solid;
+  list-style-type: upper-roman;
+  border-color: wheat;
+}
+ul li {
+  border-style: dashed;
+  border-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ul li:hover {
+  background-color: limegreen;
+}
+
+
+table {
+  border: 5px solid white;
+  border-collapse: separate;
+  border-spacing: 20px 0;
+ 
+}
+table td {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+thead th:not(:first-child) {
+  border: 1px solid white;
+}
+
+table tr:hover {
+  background-color: lawngreen;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input[type=text], select,textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: red;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	
+	
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+
+}
+
+div.container {
+	border-radius: 5px;
+	
+	padding: 20px;	
+}
+* {
+  box-sizing: border-box;
+}
+label {
+  padding: 12px 12px 12px 0;
+}
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+input[type=submit] {
+	background: #0066a2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+	width: 100px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
+}
+
+.col-25 {
+  float: left;
+  
+  width: 25%;
+  margin-top: 6px;
+}
+.col {
+  flex: 50%;
+}
+
+
+.col-75 {
+  float: ;
+  width: 60%;
+  margin-top: 4px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}		
+	
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+p::-moz-selection{
+background: yellow;
+}
+p::selection{
+background: yellow;
+}
+
+h1 { 
+	font-family:"Times New Roman";
+	text-align: center;
+	font-style: italic;
+	text-shadow: 2px 2px #FF0000;
+}
+
+h2 {
+	font-family: "LUCIDA HANDWRITING";
+	text-align: center;
+	font-style: italic;
+	text-shadow: 2px 2px #FF0000;
+}
+
+h3 {
+	font-family: Papyrus; 
+	text-align: center;
+	font-style: italic;
+	text-shadow: 2px 2px #FF0000;
+}
+}
+
+p1 {
+  font-family: "Times New Roman", Times, serif;
+  line-height:50px;
+  background-color:
+  
+}
+p1::first-line {
+   text-transform: capitalize;
+}
+p1::second-line {
+   text-transform: uppercase;
+}
+
+
+
+p2 {
+  font-family: "LUCIDA HANDWRITING", Helvetica, sans-serif;
+  line-height:10px;
+}
+p2::first-line {
+   text-transform: capitalize;
+}
+p2::second-line {
+   text-transform: uppercase;
+}
+
+
+p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  line-height:5x;
+  text-transform: capitalize;
+}
+p3::second-line {
+   text-transform: uppercase;
+}
+  
+  
+footer {
+	font-size: 150%;
+	padding: 1px 0px 0px 4px;
+	color: #ffffff;
+}
