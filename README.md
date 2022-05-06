@@ -20,7 +20,7 @@ In other words, this repo contains instruction to set up a VPS and a journal alo
 
 
 <div>
-  <b><a href="Install.MD" target="_blank">Installation Guide</a>
+  <b><a href="install.MD" target="_blank">Installation Guide</a>
 </b>
 
   </div>
