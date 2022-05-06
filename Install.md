@@ -118,3 +118,8 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 
 Links:
 https://www.putty.org/
+https://cloud.google.com/
+https://freenom.com/
+https://winscp.net/eng/index.php
+
+  
