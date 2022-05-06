@@ -8,23 +8,23 @@ This file contains the dependencies and steps needed to create your own web serv
 
 -Google Cloud
 
-# Google Cloud gives 300$ free credit to be used in 3 months to new users and creating a VPS is easy. They also have Montreal in their regions.
+Google Cloud gives 300$ free credit to be used in 3 months to new users and creating a VPS is easy. They also have Montreal in their regions.
 
 -Azure
 
-# Azure gives 200$ free credit to new users but compared to the other providers creating a VPS on Azure is difficult.
+Azure gives 200$ free credit to new users but compared to the other providers creating a VPS on Azure is difficult.
 
 -Vultr
 
-# Vultr gives 100$ free credit to new users, creating a VPS is straight forward and closest region is Toronto
+Vultr gives 100$ free credit to new users, creating a VPS is straight forward and closest region is Toronto
 
 -Digital Ocean
 
-# Digital Ocean also gives 100$ free credit and the closest region is Toronto like Vultr:
+Digital Ocean also gives 100$ free credit and the closest region is Toronto like Vultr:
 
 -AWS
 
-# AWS provides 100$ credit to students. But deploying a server is hard.
+AWS provides 100$ credit to students. But deploying a server is hard.
 
 # Step 2: Creating the VPS
 
