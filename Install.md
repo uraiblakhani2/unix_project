@@ -8,23 +8,23 @@ This file contains the dependencies and steps needed to create your own web serv
 
 -Google Cloud
 
-Google Cloud gives 300$ free credit to be used in 3 months to new users and creating a VPS is easy. They also have Montreal in their regions.
+# Google Cloud gives 300$ free credit to be used in 3 months to new users and creating a VPS is easy. They also have Montreal in their regions.
 
 -Azure
 
-Azure gives 200$ free credit to new users but compared to the other providers creating a VPS on Azure is difficult.
+# Azure gives 200$ free credit to new users but compared to the other providers creating a VPS on Azure is difficult.
 
 -Vultr
 
-Vultr gives 100$ free credit to new users, creating a VPS is straight forward and closest region is Toronto
+# Vultr gives 100$ free credit to new users, creating a VPS is straight forward and closest region is Toronto
 
 -Digital Ocean
 
-Digital Ocean also gives 100$ free credit and the closest region is Toronto like Vultr:
+# Digital Ocean also gives 100$ free credit and the closest region is Toronto like Vultr:
 
 -AWS
 
-AWS provides 100$ credit to students. But deploying a server is hard.
+# AWS provides 100$ credit to students. But deploying a server is hard.
 
 # Step 2: Creating the VPS
 
@@ -66,6 +66,8 @@ To create a VPS on Google Cloud:
 
 - Now open Putty and in the Host Name paste your VPS ip address and go to SSH --> AUTH. Then select your private key which you saved earlier and click open.
 
+- <img src="/Images/4.jpg" />
+
 # Step 4: Creating multiple users:
 
 - To create users simply type: sudo adduser <UserNameHere>
@@ -82,10 +84,37 @@ To create a VPS on Google Cloud:
 - Install WinSCP: https://winscp.net/eng/index.php
 - After installation click login and you should see all your VPS files
 
-- <img src="/Images/4.jpg" />
+- <img src="/Images/5.jpg" />
 
 - Now copy the content of your website to /var/www/html/
 - Copy paste your VPS ip in browser and you should see your website live.
+
+# Step 7: Installing SSL Certificate
+
+- Open putty and just type the following commands
+
+"sudo apt-get install certbot python-certbot-nginx"
+"sudo certbot --nginx"
+
+Refresh your website and you should now have SSL certificate (the padlock icon on top left)
+
+# Step 8: Custom domain for your website:
+
+- We used freenom to get custom domain for our website as it is free
+
+- Go to freenom.com
+- Search for a domain which you want and proceed to checkout and acquire it
+- After acquiring the domain go to Google Cloud Console and search for Cloud DNS
+- Select Public and in dns name enter your domain url and click create
+- <img src="/Images/6.jpg" />
+
+- Now go inside the cloud dns and copy the 4 dns servers
+- <img src="/Images/7.jpg" />
+
+- Click Add Record Set on top and in IPv4 Address paste the VPS ip address
+
+- In freenom go to my domains and inside manage domains paste the copied server and after few mins
+  your domain will show your website.
 
 Links:
 https://www.putty.org/
