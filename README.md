@@ -16,4 +16,11 @@ In other words, this repo contains instruction to set up a VPS and a journal alo
 - Douyon's site: https://unixbest-team.tk/sites/Douyon/Home.html
 
 
+<div>
+  <b><a href="Install.MD" target="_blank">Installation Guide</a>
+</b>
+
+  </div>
+
+
 # Authors: Uraib Lakhani, Vehab Kanlic & Douyon Sebastiampillai
