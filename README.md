@@ -14,9 +14,9 @@ In other words, this repo contains instruction to set up a VPS and a journal alo
 
 ### Websites
 - Team website: https://unixbest-team.tk/
-- Uraib's site : https://unixbest-team.tk/sites/Uraib/home.html
-- Vehab's site: https://unixbest-team.tk/sites/Vehab/home.html
-- Douyon's site: https://unixbest-team.tk/sites/Douyon/Home.html
+- Uraib's Website : https://unixbest-team.tk/sites/Uraib/home.html
+- Vehab's Website: https://unixbest-team.tk/sites/Vehab/home.html
+- Douyon's Website: https://unixbest-team.tk/sites/Douyon/Home.html
 
 
 <div>
