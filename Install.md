@@ -116,10 +116,18 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 - In freenom go to my domains and inside manage domains paste the copied server and after few mins
   your domain will show your website.
 
+# Step 8: Installing Auto Update Script 
+- First download the 3 script files <li><a href="Script\" target="_blank">from here </a></li>
+
+
+
 Links:
-https://www.putty.org/
-https://cloud.google.com/
-https://freenom.com/
-https://winscp.net/eng/index.php
+<ul>
+<li>https://www.putty.org/</li>
+<li>https://cloud.google.com/</li>
+<li>https://freenom.com/</li>
+<li>https://winscp.net/eng/index.php</li>
+</ul>
+
 
   
