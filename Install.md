@@ -1,6 +1,6 @@
 # INSTALL.MD
 
-This file contains the dependencies and steps needed to create your own web server
+<h1>This file contains the dependencies and steps needed to create your own web server 🕸🕸⚙️</h1>
 
 # Step 1: Choosing VPS provider
 
@@ -13,15 +13,18 @@ This file contains the dependencies and steps needed to create your own web serv
 <p> Azure gives 200$ free credit to new users but compared to the other providers creating a VPS on Azure is difficult.
 </p>
 
-Vultr gives 100$ free credit to new users, creating a VPS is straight forward and closest region is Toronto
+**Vultr**
+<p>Vultr gives 100$ free credit to new users, creating a VPS is straight forward and closest region is Toronto
+</p>
 
--Digital Ocean
+**Digital Ocean**
+<p>Digital Ocean also gives 100$ free credit and the closest region is Toronto like Vultr:
+</p>
 
-Digital Ocean also gives 100$ free credit and the closest region is Toronto like Vultr:
 
--AWS
-
-AWS provides 100$ credit to students. But deploying a server is hard.
+**AWS**
+<p>AWS provides 100$ credit to students. But deploying a server is hard.
+</p>
 
 # Step 2: Creating the VPS
 
