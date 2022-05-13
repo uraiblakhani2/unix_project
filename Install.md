@@ -70,7 +70,7 @@ To create a VPS on Google Cloud:
 
 # Step 4: Creating multiple users:
 
-- To create users simply type: sudo adduser <UserNameHere>
+- To create users simply type: sudo adduser (username)
 
 # Step 5: Installing web server:
 
