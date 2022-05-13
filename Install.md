@@ -126,12 +126,16 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 
 
 <h2>Links Used: </h2>
-<ul>
-<li>https://www.putty.org/</li>
+<div>
+            <ul class="b">
+             <li>https://www.putty.org/</li>
 <li>https://cloud.google.com/</li>
 <li>https://freenom.com/</li>
 <li>https://winscp.net/eng/index.php</li>
-</ul>
+                <li><a href="sites\Uraib\home.html" target="_blank">Uraib's website on Cricket</a></li>
+                <li><a href="sites\Vehab\home.html" target="_blank">Vehab's website on Environment</a></li>
+                <li><a href="sites\Douyon\home.html" target="_blank">Douyon's website on health</a></li>
+                <li><a href="https://github.com/uraiblakhani2/unix_project" target="_blank">Github link</a></li>
+              </ul>
+          </div>
 
-
-  
