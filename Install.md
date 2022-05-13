@@ -118,12 +118,13 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 
 # Step 8: Installing Auto Update Script 
 - First download the 3 script files 
-<ul>
-<li><a href="Script\script_update.sh" target="_blank"></a></li>
+
+<ul class="b">
+ <li><a href="Script\script_update.sh" target="_blank"></a></li>
 <li><a href="Script\unix_script.service" target="_blank"></a></li>
  <li><a href="Script\unix_script_timer.timer" target="_blank"></a></li>
-</ul>
-
+               </ul>
+          </div>
 
 <h2>Links Used: </h2>
 <div>
@@ -132,10 +133,6 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 <li>https://cloud.google.com/</li>
 <li>https://freenom.com/</li>
 <li>https://winscp.net/eng/index.php</li>
-                <li><a href="sites\Uraib\home.html" target="_blank">Uraib's website on Cricket</a></li>
-                <li><a href="sites\Vehab\home.html" target="_blank">Vehab's website on Environment</a></li>
-                <li><a href="sites\Douyon\home.html" target="_blank">Douyon's website on health</a></li>
-                <li><a href="https://github.com/uraiblakhani2/unix_project" target="_blank">Github link</a></li>
-              </ul>
+               </ul>
           </div>
 
