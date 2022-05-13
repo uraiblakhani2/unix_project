@@ -117,7 +117,7 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
   your domain will show your website.
 
 # Step 8: Installing Auto Update Script 
-- First download the 3 script files 
+First download the 3 script files 
 
 <ul class="b">
  <li><a href="Script\script_update.sh" target="_blank"></a></li>
