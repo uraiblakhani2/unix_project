@@ -118,10 +118,11 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 
 # Step 8: Installing Auto Update Script 
 - First download the 3 script files 
-- <li><a href="Script\script_update.sh" target="_blank"></a></li>
+- <ul>
+<li><a href="Script\script_update.sh" target="_blank"></a></li>
 - <li><a href="Script\unix_script.service" target="_blank"></a></li>
 - <li><a href="Script\unix_script_timer.timer" target="_blank"></a></li>
-
+</ul>
 
 
 <h2>Links Used: </h2>
