@@ -6,8 +6,7 @@ This file contains the dependencies and steps needed to create your own web serv
 
 - For this step you have to decide which VPS provider you are going to use. There are several VPS providers you can choose from:
 
--Google Cloud
-
+<b>-Google Cloud</b>
 Google Cloud gives 300$ free credit to be used in 3 months to new users and creating a VPS is easy. They also have Montreal in their regions.
 
 -Azure
