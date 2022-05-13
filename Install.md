@@ -121,7 +121,7 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 
 
 
-Links:
+<h2>Links Used </h2>:
 <ul>
 <li>https://www.putty.org/</li>
 <li>https://cloud.google.com/</li>
