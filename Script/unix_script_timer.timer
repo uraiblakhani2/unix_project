@@ -1,0 +1,14 @@
+[Unit]
+Description=Schedule a message every 1 minute
+RefuseManualStart=no  
+RefuseManualStop=no   
+
+[Timer]
+#Execute job if it missed a run due to machine being off
+Persistent=true
+OnBootSec=120
+OnUnitActiveSec=60
+Unit=unix_script.service
+
+[Install]
+WantedBy=timers.target

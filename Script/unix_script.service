@@ -1,0 +1,9 @@
+[Unit]
+Description=UNIX PROJECT: This service automatically pulls git repo if any changes are found
+
+[Service]
+ExecStart=/usr/bin/script_update.sh
+
+
+[Install]
+WantedBy=multi-user.target
