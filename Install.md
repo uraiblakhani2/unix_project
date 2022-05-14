@@ -88,7 +88,9 @@ To create a VPS on Google Cloud:
 
 -Now we can install the server which on which we will host our website. We can choose nginx or Apache as web server but we decided to go with Nginx as it is faster.
 
-- To install nginx simply run: "sudo apt-get install nginx"
+- To install nginx simply run: 
+
+`sudo apt-get install nginx`
 
 # Step 6: Copy files of website stored on local pc to VPS using a file client manager
 
@@ -131,12 +133,12 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
   your domain will show your website.
 
 
-# Step 8.2: Installing Git for Auto Update Script
+# Step 8: Installing Git for Auto Update Script
  - To install git simply run the command below
  
  `sudo apt-get install git`
 
-# Step 8: Installing Auto Update Script 
+# Step 8.2: Installing Auto Update Script 
 - First navigate to the downloads folder 
 
 `cd /home/username/Downloads`
