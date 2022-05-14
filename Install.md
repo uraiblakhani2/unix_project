@@ -119,7 +119,8 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 # Step 8: Installing Auto Update Script 
 - First clone the github in the downloads folder
 `cd /home/username/Downloads`
-`git clone https://github.com/uraiblakhani2/unix_project.git`
+ 
+`\ngit clone https://github.com/uraiblakhani2/unix_project.git`
 
 - Move the script_update.sh to the directory /usr/bin by entering the following command
  `mv /home/username/Downloads/unix_project/Script/script_update.sh /usr/bin/`
