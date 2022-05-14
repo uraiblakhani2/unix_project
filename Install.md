@@ -105,8 +105,10 @@ To create a VPS on Google Cloud:
 
 - Open putty and just type the following commands
 
-"sudo apt-get install certbot python-certbot-nginx"
-"sudo certbot --nginx"
+`sudo apt-get install certbot python-certbot-nginx`
+
+`sudo certbot --nginx`
+
 
 Refresh your website and you should now have SSL certificate (the padlock icon on top left)
 
