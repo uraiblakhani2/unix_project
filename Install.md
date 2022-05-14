@@ -64,7 +64,7 @@ To create a VPS on Google Cloud:
 - Next step is to generate SSH keys to login to the VPS using them
 
 
-#Step 3.2 Generating SSH keys
+# Step 3.2 Generating SSH keys
 
 - We will now generate SSH keys. First go to https://www.putty.org/ and install it on your pc
 
