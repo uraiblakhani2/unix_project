@@ -25,7 +25,7 @@ basic security tasks like generating SSH keys, configuring the server with HTTPS
 We choose to create a web server on a VPS and choose Google Cloud as VPS provider after comparing it with others.
 
 # Requirements 📋:
-- 💳💳Credit Card to signup for Google Cloud
+- 💳💳💲Credit Card to signup for Google Cloud
 - VPS
 - Putty
 - WinScp
