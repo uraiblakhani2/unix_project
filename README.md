@@ -4,6 +4,11 @@
  <h2> <b><a href="Install.md" target="_blank">Installation Guide</a>
 </b> </h2> 
    </div>
+   
+   <div>
+ <h2> <b><a href="/Script" target="_blank">Auto Update Script</a>
+</b> </h2> 
+   </div>
 
 # Project description/goals:
 This is a repo which contains basic steps to setup a web server to host a website using a VPS. 
