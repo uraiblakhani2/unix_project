@@ -128,12 +128,16 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
  `mv /home/username/Downloads/unix_project/Script/script_update.sh /usr/bin/`
  
 - Move the unix_script.service and unix_script_timer.timer to the directory /etc/systemd/system by entering the following command:
+
  `mv /home/username/Downloads/unix_project/Script/unix_script.service /etc/systemd/system`
+ 
  `mv /home/username/Downloads/unix_project/Script/unix_script.timer /etc/systemd/system`
  
  - Now you have to give permissions to the script and timer by entering the following commands:
   `sudo chmod 777 /usr/bin/unix_script.sh`
+  
   `sudo chmod 777 /etc/systemd/system/unix_script.service`
+  
   `sudo chmod 777 /etc/systemd/system/unix_script.timer`
   
   Chmod 777 will give them read write and excetue permissions
