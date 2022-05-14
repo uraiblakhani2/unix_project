@@ -118,11 +118,30 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 
 # Step 8: Installing Auto Update Script 
 - First clone the github in the downloads folder
-`cd /home/username/Downloads
-git clone https://github.com/uraiblakhani2/unix_project.git
-`
+`cd /home/username/Downloads`
+`git clone https://github.com/uraiblakhani2/unix_project.git`
+
 - Move the script_update.sh to the directory /usr/bin by entering the following command
  `mv /home/username/Downloads/unix_project/Script/script_update.sh /usr/bin/`
+ 
+- Move the unix_script.service and unix_script_timer.timer to the directory /etc/systemd/system by entering the following command:
+ `mv /home/username/Downloads/unix_project/Script/unix_script.service /etc/systemd/system`
+ `mv /home/username/Downloads/unix_project/Script/unix_script.timer /etc/systemd/system`
+ 
+ - Now you have to give permissions to the script and timer by entering the following commands:
+  `sudo chmod 777 /usr/bin/unix_script.sh`
+  `sudo chmod 777 /etc/systemd/system/unix_script.service`
+  `sudo chmod 777 /etc/systemd/system/unix_script.timer`
+  
+  Chmod 777 will give them read write and excetue permissions
+  
+  -To enable the service, simply type `sudo systemctl start unix_script.service`
+    - If you want to, you can also enable the service by running `sudo systemctl enable unix_script.service`
+
+# Notes
+- If you want to change the script sleep duration, please restart the service or stop it before making changes
+- If you modify the service file directly, you must run `systemctl daemon-reload` in order for the changes to take effect
+
 
 
 
