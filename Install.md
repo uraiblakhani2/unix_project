@@ -70,15 +70,15 @@ To create a VPS on Google Cloud:
 
 - Next open PuttyGen and generate ssh keys and save the private and public keys somewhere on your pc
 
-- <img src="/Images/2.jpg" />
+<img src="/Images/2.jpg" />
 
 - Open Google Cloud console and click edit Instance
 - Scroll down and in SSH key section paste your public SSH keys which you created using Putty
-- <img src="/Images/3.jpg" />
+<img src="/Images/3.jpg" />
 
 - Now open Putty and in the Host Name paste your VPS ip address and go to SSH --> AUTH. Then select your private key which you saved earlier and click open.
 
-- <img src="/Images/4.jpg" />
+<img src="/Images/4.jpg" />
 
 # Step 4: Creating multiple users:
 
@@ -96,7 +96,7 @@ To create a VPS on Google Cloud:
 - Install WinSCP: https://winscp.net/eng/index.php
 - After installation click login and you should see all your VPS files
 
-- <img src="/Images/5.jpg" />
+<img src="/Images/5.jpg" />
 
 - Now copy the content of your website to /var/www/html/
 - Copy paste your VPS ip in browser and you should see your website live.
@@ -120,10 +120,10 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 - Search for a domain which you want and proceed to checkout and acquire it
 - After acquiring the domain go to Google Cloud Console and search for Cloud DNS
 - Select Public and in dns name enter your domain url and click create
-- <img src="/Images/6.jpg" />
+<img src="/Images/6.jpg" />
 
 - Now go inside the cloud dns and copy the 4 dns servers
-- <img src="/Images/7.jpg" />
+<img src="/Images/7.jpg" />
 
 - Click Add Record Set on top and in IPv4 Address paste the VPS ip address
 
