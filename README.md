@@ -10,7 +10,7 @@
 </b> </h2> 
    </div>
 
-# Project description/goals:
+# Project description/goals 🥅:
 This is a repo which contains basic steps to setup a web server to host a website using a VPS. 
 This repo also contains screenshots with instructions of basic tasks one might want to preform when setting
 up their own server such as the creation of multiple user accounts and giving them permissions, 
@@ -24,8 +24,8 @@ basic security tasks like generating SSH keys, configuring the server with HTTPS
 # Platform of choice: 
 We choose to create a web server on a VPS and choose Google Cloud as VPS provider after comparing it with others.
 
-# Requirements:
-- Credit Card to signup for Google Cloud
+# Requirements 📋:
+- 💳💳Credit Card to signup for Google Cloud
 - VPS
 - Putty
 - WinScp
@@ -38,7 +38,7 @@ We choose to create a web server on a VPS and choose Google Cloud as VPS provide
 - Compared VPS providers
 
 
-# Timeline:
+# Timeline⌛⏲:
 - 1st week: 
 We compared the options for the softwares/vps to use and create list of pros and
 cons for each and choose the best one and started working on the project by deploying the VPS.
