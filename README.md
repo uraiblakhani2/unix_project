@@ -17,7 +17,7 @@ up their own server such as the creation of multiple user accounts and giving th
 basic security tasks like generating SSH keys, configuring the server with HTTPS and monitoring the server health.
 
 
-<h2>In other words, this repo contains instruction to set up a VPS and a journal along with screenshots of setting up the VPS.</h2>
+<h2>In other words, this repo contains instruction to set up a VPS along with screenshots of setting up the VPS.</h2>
 
 
 
