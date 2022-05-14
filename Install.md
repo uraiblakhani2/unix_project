@@ -40,7 +40,7 @@ To create a VPS on Google Cloud:
 
 - Select Create Instance
 
-- <img src="/Images/1.jpg" />
+<img src="/Images/1.jpg" />
 
 - Choose the region closest to you and choose 4gb Ram as it should be more than enough for a web-server
 
