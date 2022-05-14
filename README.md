@@ -1,5 +1,9 @@
 # Unix-Final-Project
 
+<div>
+ <h2> <b><a href="Install.md" target="_blank">Installation Guide</a>
+</b> </h2> 
+   </div>
 
 # Project description/goals:
 This is a repo which contains basic steps to setup a web server to host a website using a VPS. 
@@ -55,10 +59,6 @@ Authors: Uraib Lakhani, Vehab Kanlic & Douyon Sebastiampillai
 - Douyon's Website: https://unixbest-team.tk/sites/Douyon/Home.html
 
 
-<div>
-  <b><a href="Install.md" target="_blank">Installation Guide</a>
-</b>
 
-  </div>
 
 
