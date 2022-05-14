@@ -130,8 +130,15 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
 - In freenom go to my domains and inside manage domains paste the copied server and after few mins
   your domain will show your website.
 
+
+# Step 8.2: Installing Git for Auto Update Script
+ - To install git simply run the command below
+ 
+ `sudo apt-get install git`
+
 # Step 8: Installing Auto Update Script 
 - First navigate to the downloads folder 
+
 `cd /home/username/Downloads`
  
  - Clone the github repo in Downloads
