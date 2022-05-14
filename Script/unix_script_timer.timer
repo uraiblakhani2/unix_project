@@ -1,5 +1,5 @@
 [Unit]
-Description=Schedule a message every 1 minute
+Description=Timer for script
 RefuseManualStart=no  
 RefuseManualStop=no   
 
