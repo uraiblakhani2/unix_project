@@ -144,13 +144,15 @@ Refresh your website and you should now have SSL certificate (the padlock icon o
   
   Chmod 777 will give them read write and excetue permissions
   
-  -To enable the service, simply type 
+  - To enable the service, simply type 
   
   `sudo systemctl start unix_script.service`
  
   - If you want to, you can also enable the service by running
   
    `sudo systemctl enable unix_script.service`
+   
+- Now the script should be running and each time you make an update on the github repo, the website will get updated.
 
 # Notes
 - If you want to change the script sleep duration, please restart the service or stop it before making changes
