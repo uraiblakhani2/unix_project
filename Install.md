@@ -50,9 +50,21 @@ To create a VPS on Google Cloud:
 
 # Step 3: Securing the VPS:
 
-- Now that your VPS has been created it is time to secure it to protect it from hackers.
+- Now that your VPS has been created it is time to secure it to protect it from hackers by changing few things
+- First we should change the default port for ssh. Enter the command below and change the port from 22 to something else:
 
-  # Generating SSH keys
+`sudo nano /etc/ssh/sshd_config`
+
+- We should also disable server access via the root user, to do so type the command below and where it says PermitRootLogin change it to no 
+
+`sudo nano /etc/ssh/sshd_config`
+
+`sudo systemctl restart sshd`
+
+- Next step is to generate SSH keys to login to the VPS using them
+
+
+#Step 3.2 Generating SSH keys
 
 - We will now generate SSH keys. First go to https://www.putty.org/ and install it on your pc
 
